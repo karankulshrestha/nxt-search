@@ -12,6 +12,7 @@ import { ethers } from "ethers";
 import Web3Modal from "web3modal";
 import { dataChainAddress } from "../../config";
 import UserData from "../../artifacts/contracts/Data.sol/UserData.json";
+import dojimaABI from "../../dojimaABI.json"
 
 const Form = () => {
   const [thumbnail, setThumbnail] = useState("");
@@ -28,7 +29,7 @@ const Form = () => {
     const connection = await web3Modal.connect();
     const provider = new ethers.providers.Web3Provider(connection);
     const signer = provider.getSigner();
-    let contract = new ethers.Contract(dataChainAddress, UserData.abi, signer);
+    let contract = new ethers.Contract("0x7B3fE25c6572eb375570d47a7812a1CF4563b973", dojimaABI, signer);
     const amount = { value: ethers.utils.parseEther("0.01") };
     let transaction = await contract.createToken(
       dataHash,
