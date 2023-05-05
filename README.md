@@ -30,7 +30,7 @@ NEXTSEARCH is an AI Powered decentralized search engine.
 
 ![p1](https://user-images.githubusercontent.com/42493387/225838918-58e70ba2-d0e4-44de-b919-31ae9b93f30d.PNG)
 
-![p2](https://user-images.githubusercontent.com/42493387/225839165-3b51d8aa-dea5-4beb-9eeb-830693b9acbf.PNG)
+![p2](https://user-images.githubusercontent.com/42493387/236387244-9e261b3b-2051-4ab0-9022-fbbaccd8bf29.PNG)
 
 ![p5](https://user-images.githubusercontent.com/42493387/225839284-e116b776-fbe9-4e5d-8c45-fc3fbec7db21.PNG)
 
